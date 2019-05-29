@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-family: 'Lato', sans-serif;
+}
+
+header {
+height: 100px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+border: 1px solid #ececec;
+background-color: #ffffff;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.headerContent {
+	    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.headerLeft {
+        display: flex;
+    align-items: center;
+}
+
+.headerLeft a {
+height: 19px;
+color: #222222;
+font-family: Lato;
+font-size: 27px;
+font-weight: 300;
+line-height: 32px;
+text-transform: uppercase;
+font-family: "Lato";
+font-weight: 300;
+letter-spacing: 0.68px;
+text-decoration: none;
+
+}
+
+.headerLeft span {
+color: #f16d7f;
+font-family: "Lato";
+font-weight: 400;
+letter-spacing: 0.68px;	
+}
+
+.logo {
+        display: flex;
+    align-items: center;
+}
+
+.form {
+        display: flex;
+    align-items: center;
+    margin-left: 37px;
+}
+
+.dropdown button {
+	width: 87px;
+height: 38px;
+border-radius: 3px 0 0 3px;
+border: 1px solid #e6e6e6;
+background-color: #cdcdcc;
+background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+color: #222222;
+font-family: Lato;
+font-size: 14px;
+font-weight: 300;
+letter-spacing: 0.35px;
+    align-items: center;
+}
+
+.dropdown button:hover {
+	width: 87px;
+height: 38px;
+border-radius: 3px 0 0 3px;
+border: 1px solid #e6e6e6;
+background-color: #cdcdcc;
+background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+color: #222222;
+font-family: Lato;
+font-size: 14px;
+font-weight: 300;
+letter-spacing: 0.35px;
+    align-items: center;	
+}
+
+.browse {
+height: 10px;
+color: #222222;
+font-family: Lato;
+font-size: 14px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: 0.35px;
+}
+
+.headerRight {
+        display: flex;
+    align-items: center;
+}
+
+input {
+	width: 317px;
+border-radius: 0 3px 3px 0;
+border: 1px solid #e6e6e6;
+background-color: #ffffff;
+height: 38px;
+
+}
+
+
+
+input[placeholder="Search for Item..."] {
+	color: #a4a4a4;
+font-family: Lato;
+font-size: 14px;
+font-weight: 300;
+letter-spacing: 0.35px;	
+padding-left: 16px;	
+}
+
+.loupe {
+	width: 36px;
+	height: 38px;
+}
+
+
+.logo img {
+    margin-right: 13px;
+}
+
+.cart {
+    margin-right: 26px;
+}
+
+#dropdownMyAccount {
+	width: 130px;
+height: 38px;
+background-color: #f16d7f;
+border: 0;
+}
+
+
+.mainMenu {
+        display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    height: 51px;
+
+}
+
+.menuClick {
+        padding: 19px;
+    display: block;
+    color: #222222;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+    text-decoration: none;
+    line-height: 26px;
+}
+
+.promo {
+    height: 614px;
+    background-color: #e8e8e8;
+}
+
+.promoContent {
+    height: 100%;
+    background-image: url(img/promo.png);
+    background-position: 0 -51px;
+}
+
+.promoText h1 {
+    color: #222222;
+font-size: 40px;
+font-weight: 400;
+}
+
+.promoText h3{
+letter-spacing: 1px;
+}
+
+
+.promoText {
+    color: #222222;
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+        line-height: 31px;
+    margin-top: 224px;
+    float: left;
+    font-weight: 400;
+}
+
+.large {
+    width: 560px;
+height: 542px;
+    background-color: #ccc;
+}
+
+.large:first-child {
+	background-image: url(img/Layer_30.png);
+}
+
+.large:last-child {
+	background-image: url(img/Layer_31.png);
+}
+
+.small {
+    width: 560px;
+height: 261px;
+    background-color: #dadad2;
+}
+
+.small:first-child {
+	background-image: url(img/Layer_32.png);
+}
+
+.small:last-child {
+	background-image: url(img/Layer_37.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.offers {
+    padding-top: 100px;
+    padding-bottom: 100px;
+        display: flex;
+    justify-content: space-between;
+}
+
+.offersBlock div:first-child {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.offersText {
+    background-color: #ffffff;
+    float: left;
+    margin-top: 26px;
+    height: 82px;
+
+
+}
+
+.offersText p:first-child {
+color: #222222;
+font-family: "Lato";
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+
+}
+
+.offersText p:last-child {
+	color: #f16d7f;
+font-size: 30px;
+}
+
+
+
+.featuredItems {
+	margin-bottom: 60px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.featuredItemsText h3 {
+height: 23px;
+color: #222222;
+font-family: Lato;
+font-size: 30px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0.75px;
+margin-bottom: 16px;
+	text-align: center;
+}
+
+.featuredItemsText p {
+height: 12px;
+color: #9f9f9f;
+font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+line-height: 54px;
+letter-spacing: 0.35px;	
+	text-align: center;
+}
+
+.adsContainer {
+	height: 681px;
+	width: 1140px; 
+	margin-top: 60px;
+}
+
+.upperAds  {
+	display: flex;
+	justify-content: space-between;	
+height: 342px;
+width: 1140px; 
+	margin-bottom: 60px;
+}
+
+.lowerAds  {
+		display: flex;
+	justify-content: space-between;	
+	height: 342px;
+	height: 342px;
+width: 1140px; 
+}
+
+.item {
+
+}
+
+.itemText h3 {
+color: #222222;
+font-family: Lato;
+font-size: 13px;
+font-weight: 400;
+text-transform: uppercase;
+margin-top: 20px;
+text-align: left;
+}
+
+.itemText p {
+color: #f16d7f;
+font-family: Lato;
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
+margin-top: 17px;
+text-align: left;
+
+}
